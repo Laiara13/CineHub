@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="autores" content="Laiara Leizer, Guilherme Schuh, Igor da Silva Machado, Felipe Alves Garcia" />
+    <meta charset="descrição" content="Site de streaming de filmes e séries" />
+    <meta charset="palavra-chave" content="Streming, filmes, séries" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>CineHub</title>
+  </head>
+  <body>
+    
+  <header>
+      <img src="img/CineHub.png" class="imglogo" alt="Logo do site, é uma logo circular com um gradiente da cor roxa pro preto da direita pra esquerda, possui um pote de pipoca nas cores roxo e branco, colado nesse pote tem um oculos 3d, em cima do pote está escrito o nome do site CineHub" />
+      <h1>CineHub</h1> 
+    <nav id="itens">
+      <div class="home">
+        <img src="img/Home.png" alt="Simbolo de uma casa, indicando a aba início, está na cor branca"/>
+        <a href="./index.html">Início</a>
+      </div>
+        
+      <div class="filmes">
+        <img src="img/Filmes.jpeg" alt="Simbolo de uma claquete, instrumento utilizado para indicar o começo de um set, indicando a aba de filmes, está na cor branca"/>
+        <a  href="./indexfilmes.html">Filmes</a>
+      </div>
+
+      <div class="series">
+        <img src="img/Series.png" alt="Simbolo de um sofa, indicando a aba de séries, está na cor branca"/>
+        <a  href="./indexseries.html">Séries</a>
+      </div>
+
+      <div class="favoritos">
+        <img src="img/Favoritos.png" alt="Simbolo de um mais, indicando a aba de favoritos, está na cor branca"/>
+        <a  href="./indexlista.html">Favoritos</a>
+      </div>
+    </nav>
+      <img src="img/Pesquisa.png" id="lupa" class="pesquisa" alt="Simbolo de uma lupa, indicando a barra de pesquisa, está na cor branca"/>
+      <i id="burger" ><span class="material-symbols-rounded" onclick="clickMenu()">menu</span></i>  
+  </header>
+
+  <main>
+    <h2 class="h2">Minha Lista</h2>
+    <h2 class="h2">Adicionados Recentemente</h2>
+    <section class="container">
+      <button class="passar_direita">&lt;</button>
+      <div class="galeria_fotos">
+        <div class="film-container">
+          <div class="imagem_ao_lado">
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/filmes/mpfilme1.png" alt="Filme Aranhaverso 2"></a>     
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/Fotos/Ficção-científica/7.png"  alt="Filme The Titan"></a>
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/filmes/mpfilme3.png" alt="Filme Tetris"></a>
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/drama/bad.png" alt="filme breaking Bad"></a>
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/filmes/mpfilme2.png" alt="Filme John Wick"></a>     
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/Fotos/Terror/1.png"></a>
+          </div>
+        </div>
+      </div>
+      <button class="passar_esquerda">&gt;</button>
+    </section>
+
+    <h2 class="h2">Séries</h2>
+    <section class="container">
+      <button class="passar_direita">&lt;</button>
+      <div class="galeria_fotos">
+        <div class="film-container">
+          <div class="imagem_ao_lado">
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/comédia/simpsons.png"></a>     
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/ação/boys.png"></a>
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/ficção/rick.png"></a>
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/drama/bad.png"></a>
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/drama/super.png"></a>
+          </div>
+        </div>
+      </div>
+      <button class="passar_esquerda">&gt;</button>
+    </section>
+
+    <h2 class="h2">Filmes</h2>
+    <section class="container">
+      <button class="passar_direita">&lt;</button>
+      <div class="galeria_fotos">
+        <div class="film-container">
+          <div class="imagem_ao_lado">
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/Fotos/açao/1.png"></a>     
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/Fotos/Ficção-científica/7.png"></a>
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/Fotos/Comédia/5.png"></a>
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/Fotos/Terror/1.png"></a>
+            <a href="./indexlogin.html"><img class="foto_do_carrocel" src="./img/Fotos/Terror/3.png"></a>
+          </div>
+        </div>
+      </div>
+      <button class="passar_esquerda">&gt;</button>
+    </section>
+  </main>
+
+    <footer>
+        <div class="us">
+            <h3>Sobre Nós</h3>
+            <a>Conheça a CineHub</a>
+            <a>Conheça os Desenvolvedores</a>
+        </div>
+        <div class="social">
+            <a class="sociais" href="https://www.facebook.com/"><img src="./img/ação/facebook.png"/></a>
+            <a class="sociais" href="https://www.instagram.com/"><img src="./img/ação/insta.png"/></a>
+        </div>
+        <div class="help">
+        <h3>Ajuda</h3>
+        <a>Sua Conta</a>
+        <a>Suporte</a>
+        <a>Diretrizes</a>
+        </div>
+    </footer>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
